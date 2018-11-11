@@ -35,7 +35,7 @@
     <Reference Include="0Harmony, Version=1.2.0.1, Culture=neutral, PublicKeyToken=null">
       <HintPath>..\Assemblies\0Harmony.dll</HintPath>
     </Reference>
-    <Reference Include="Assembly-CSharp, Version=0.19.6814.14609, Culture=neutral, PublicKeyToken=null">
+    <Reference Include="Assembly-CSharp">
       <HintPath>..\..\..\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
       <Private>False</Private>
     </Reference>
@@ -53,7 +53,7 @@
     <None Include="..\Defs\**" />
     <None Include="..\Languages\**" />
     <None Include="..\Patches\**" />
-    <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Reference Include="UnityEngine">
       <HintPath>..\..\..\RimWorldWin64_Data\Managed\UnityEngine.dll</HintPath>
       <Private>False</Private>
     </Reference>
@@ -85,7 +85,7 @@
     <Compile Include="utils\settings\WoohooSettingHelper.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="mod\DuplicatedBull" />
+    <Folder Include="mod\DuplicatedBull\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
